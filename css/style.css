@@ -1,0 +1,42 @@
+*{
+margin: 0;
+font-family: 'Courier New', Courier, monospace;
+/* 
+background-image: url(../img/5-dots.png);
+Background pattern from Toptal Subtle Patterns */}
+
+.circle{
+	background-color: aquamarine;
+	width: 40vh;
+	height: 40vh;
+	border-radius: 50%;
+	border-top: 120px solid red ;
+	border-left: 120px solid rgb(5, 32, 235) ;
+	border-bottom: 120px solid rgb(82, 219, 82) ;
+	border-right: 120px solid rgb(122, 115, 123);
+	margin: 10px auto;
+	transition: transform 11s ease, border 3s ease-in-out,
+	background-color 7s ease-in;
+}
+
+.active{
+	transform: rotate(6210deg);
+	border-top-color: rgb(207, 207, 18);
+	border-left-color: rgb(102, 9, 253);
+	border-bottom-color: rgb(27, 26, 28);
+	border-right-color: rgb(27, 213, 185);
+	background-color: rgb(255, 255, 255);
+}
+
+button{
+	display: block;
+	height: 10vh;
+	width: 20vw;
+	background-color: darkgoldenrod;
+	color: white;
+	border-radius: 10%;
+	border: 2px solid rgb(106, 79, 11);
+	margin: 20px auto;
+	font-size: 4vh;
+	font-weight: bold;
+}
